@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <h2>Registration Form</h2>
     <form action="/register" method="POST">
-      <h2>Registration Form</h2>
-      <p><input type="text" placeholder="Name"></p>
-      <p><input type="text" placeholder="Email"></p>
-      <p><input type="text" placeholder="password"></p>
-      <button>Submit</button>
+      <p><input type="text" name="name" placeholder="Name" /></p>
+      <p><input type="text" name="email" placeholder="Email" /></p>
+      <p><input type="password" name="password" placeholder="Password" /></p>
+      <p><button>Submit</button></p>
     </form>
-    Already a member?<a href="/login">login</a> here!
-</body>
+    <p>
+        Already a member? <a href="/login">login</a> here!
+    </p>
+  </body>
 </html>
