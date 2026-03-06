@@ -6,10 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <h1>Loginform</h1>
     <form action="/login" method="POST">
-        <p><input type="text" placeholder="email"></p>
-        <p><input type="text" placeholder="password"></p>
+        
+        <p><input type="text" name="email" placeholder="email"></p>
+        <p><input type="text" name="password" placeholder="password"></p>
+        <button>login</button>
     </form>
+    <p>
+        New user <a href="/register">Register</a> here!
+    </p>
 </body>
 </html>
